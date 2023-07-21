@@ -104,7 +104,7 @@ a.nav-link:hover {
 .dropdown-menu {
   background-color: #00000000;
   border: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   height: 130px;
   width: auto;
   border-radius: 0;
@@ -114,7 +114,7 @@ a.nav-link:hover {
   margin-left: 10px;
   color: rgb(241, 241, 241);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .pointer {
@@ -149,6 +149,140 @@ a.nav-link:hover {
 .sommaireH1 {
   border-bottom: 2px solid rgb(255, 218, 139);
   width: 170px;
+}
+.sommaire a:hover {
+  transition: 300ms;
+  filter: brightness(70%);
+}
+.sommaire a span:hover {
+  transition: 300ms;
+  color: rgb(255, 218, 139);
+}
+
+/* ---------------------- PRESENTATION ----------------------- */
+.presentation {
+  border-top: 2px solid black;
+  background-color: #f0f0f0;
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+.presentation h1 {
+  letter-spacing: 2px;
+  border-bottom: 2px solid rgb(255, 218, 139);
+  width: 210px;
+}
+.presentation h3 {
+  letter-spacing: 2px;
+  color: rgb(236, 197, 111);
+}
+.imgPresentation {
+  width: 42vw;
+  object-fit: cover;
+  padding-left: 40px;
+}
+.black {
+  min-height: 81vh;
+  background-color: black;
+  color: rgb(247, 247, 247);
+}
+.col-img {
+  padding: 0;
+}
+/* ------------------- ENTRAINEURS ------------------- */
+.entraineurs {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../medias/chess-entraineurs.jpg");
+  object-fit: cover;
+  background-position: center top;
+
+  padding-top: 300px;
+  padding-bottom: 200px;
+  margin-top: -15%;
+}
+.entraineurs h1 {
+  letter-spacing: 2px;
+  color: #f0f0f0;
+  padding-bottom: 100px;
+}
+.entraineurs h5 {
+  letter-spacing: 2px;
+  color: rgb(236, 197, 111);
+}
+.entraineurs h4 {
+  letter-spacing: 2px;
+  color: #f0f0f0;
+  padding-top: 10px;
+}
+.imgEntraineurs {
+  width: 300px;
+  height: 300px;
+  padding: 0;
+  object-fit: cover;
+  border: 1px solid rgb(236, 197, 111);
+}
+/* -------------------- LOCALISATION -------------------- */
+.imgLocalisation {
+  width: 50vw;
+  height: 1000px;
+  object-fit: cover;
+}
+.localisation h5 {
+  letter-spacing: 2px;
+  padding-top: 70px;
+  padding-left: 40px;
+  color: rgb(236, 197, 111);
+}
+.localisation h3 {
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-left: 40px;
+  color: #f0f0f0;
+}
+.localisation h2 {
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-left: 40px;
+  color: #f0f0f0;
+}
+.localisation p {
+  font-size: large;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #f0f0f0;
+}
+.textLocalisation {
+  margin: 10% 8% 10% 0;
+  background-color: #000000;
+  height: auto;
+  padding-bottom: 70px;
+}
+.accessLocalisation {
+  background-color: #000000;
+  padding-bottom: 50px;
+}
+.accessLocalisation span {
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: rgb(38, 172, 172);
+  padding-left: 40px;
+}
+.accessLocalisation p.text-grey {
+  color: #c5c5c5;
+}
+.transport {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.transport i {
+  font-size: 35px;
+}
+.fa-transport {
+  color: rgb(236, 197, 111);
+}
+.fa-transport:hover {
+  transition: 250ms;
+  color: rgb(38, 172, 172);
 }
 /* ------------------- media queries -------------------- */
 
@@ -217,6 +351,13 @@ a.nav-link:hover {
   .imgSommaire {
     height: 220px;
     width: 300px;
+  }
+  .imgPresentation {
+    height: auto;
+    width: 90vw;
+    object-fit: cover;
+    margin: 0 auto;
+    padding-left: 0;
   }
 }
 
