@@ -1,0 +1,148 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.headerAccueil {
+  height: 1000px;
+  width: 100vw;
+}
+.backgroundHeaderAccueil {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.336)),
+    url("../../medias/chess.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: cover;
+}
+
+.header {
+  height: 170px;
+}
+.logoClub {
+  max-height: 140px;
+  width: auto;
+  margin-left: 3px;
+}
+.logoClub:hover {
+  opacity: 0.7;
+  transition: ease-in-out 400ms;
+}
+.contact {
+  justify-content: center;
+  margin-top: 59px;
+  padding-right: 15px;
+  display: inline-flex;
+}
+.contact a:hover {
+  color: rgb(255, 218, 139);
+}
+.contact a {
+  text-decoration-line: none;
+  font-size: 1.4em;
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+}
+.socialLinks {
+  display: inline;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin: 0 20px;
+}
+.socialLinks:hover {
+  color: rgb(255, 218, 139);
+}
+.no-wrap {
+  flex-wrap: nowrap;
+}
+/*-------------------------- NAVABAR ----------------------------*/
+
+nav {
+  font-size: 1.4em;
+  margin-top: 50px;
+}
+
+.navbar {
+  height: 50px;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  margin-right: 20px;
+}
+
+a.nav-link:hover {
+  color: rgb(255, 218, 139);
+}
+
+.nav-link-active {
+  color: rgb(184, 184, 184);
+  border-bottom: 1px solid rgb(255, 218, 139);
+}
+
+.navbar-toggler {
+  background-color: rgb(255, 218, 139);
+}
+
+.navbar-collapse {
+  background-color: #000000;
+}
+.nav-link:focus {
+  color: black;
+}
+
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+.dropdown-menu {
+  background-color: #000000;
+  border: none;
+  font-size: 1rem;
+  height: 130px;
+  width: 300px;
+  border-radius: 0;
+}
+.dropdown-menu {
+  background-color: #000000;
+  border: none;
+  font-size: 1rem;
+  height: 130px;
+  width: 300px;
+  border-radius: 0;
+}
+
+.text-li-services {
+  margin-left: 10px;
+  color: rgb(241, 241, 241);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.panel-title {
+  padding-top: 15px;
+  font-size: 1.2rem;
+  height: 50px;
+  width: 96%;
+  margin: 0, 0, 30px, 0;
+  background-color: #f1f1f1;
+  border: 1px solid rgb(218, 218, 218);
+}
+
+/*----------------------------- END NAVBAR ---------------------------------*/
+
+.titleHeader {
+  font-size: 100px;
+  margin-top: 150px;
+  height: auto;
+  padding: 20px;
+  color: rgb(241, 241, 241);
+  display: block;
+}

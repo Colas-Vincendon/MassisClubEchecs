@@ -4,6 +4,151 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Massis Club d'Echecs</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../front/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container-fluid">
+      <div class="row d-flex">
+        <div class="headerAccueil backgroundHeaderAccueil">
+          <div class="row header">
+            <div class="col-2">
+              <div class="logoClubHeader pt-3">
+                <a href="accueil.html">
+                  <img
+                    class="logoClub img-fluid"
+                    src="../medias/logoClub.png"
+                    alt="logo club"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="navbarHeader">
+                <nav
+                  class="container navbar navbar-expand-lg navbar-dark col-sm-11"
+                >
+                  <div class="container d-flex justify-content-start">
+                    <button
+                      type="button"
+                      class="navbar-toggler"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarText"
+                      aria-controls="navbarText"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                      class="collapse navbar-collapse"
+                      id="navbarText"
+                      style="z-index: 1"
+                    >
+                      <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                          <a class="nav-link nav-link-active" href="index.php"
+                            >Accueil</a
+                          >
+                        </li>
+                        <!-- -------------- NAV DROPDOWN NOUS REJOINDRE ----------------- -->
+                        <li class="nav-item dropdown">
+                          <a
+                            class="nav-link dropdown-toggle pointer"
+                            class="navbar-toggler"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#nousRejoindre"
+                            aria-label="Toggle navigation"
+                            >Nous rejoindre<b class="caret"></b
+                          ></a>
+                          <ul id="nousRejoindre" class="dropdown-menu">
+                            <li>
+                              <a
+                                class="nav-link no-underline text-li-services"
+                                href="allServices.html"
+                                >Localisation</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="nav-link no-underline text-li-services"
+                                href="boschService.html"
+                                >Horaires</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="nav-link no-underline text-li-services"
+                                href="carRegistration.html"
+                                >Adhésion</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <!-- --------- DROPDOWN VIE DU CLUB ----------- -->
+                        <li class="nav-item dropdown">
+                          <a
+                            class="nav-link dropdown-toggle pointer"
+                            class="navbar-toggler"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#vieDuClub"
+                            aria-label="Toggle navigation"
+                            >Vie du club<b class="caret"></b
+                          ></a>
+                          <ul id="vieDuClub" class="dropdown-menu">
+                            <li>
+                              <a
+                                class="nav-link no-underline text-li-services"
+                                href="allServices.html"
+                                >Actualités</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="nav-link no-underline text-li-services"
+                                href="boschService.html"
+                                >Résultats</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="nav-link no-underline text-li-services"
+                                href="carRegistration.html"
+                                >Qui sommes-nous</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+            <div class="col-2 d-flex justify-content-end">
+              <div class="contact">
+                <a href="">Contact</a>
+                <i class="socialLinks fa-brands fa-instagram"></i>
+                <i class="socialLinks fa-brands fa-facebook-f"></i>
+              </div>
+            </div>
+            <div class="row titleHeader text-center">
+              <span class="fs-50px px-5 d-block">Club d'échecs</span>
+              <span class="massis fs-30px px-5 d-block"
+                >Massis - Lyon - France</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/9468c33ba3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
