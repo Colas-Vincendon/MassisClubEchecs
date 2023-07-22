@@ -54,6 +54,7 @@
 }
 .socialLinks:hover {
   color: rgb(255, 218, 139);
+  cursor: pointer;
 }
 .no-wrap {
   flex-wrap: nowrap;
@@ -267,9 +268,6 @@ a.nav-link:hover {
   color: rgb(38, 172, 172);
   padding-left: 40px;
 }
-.accessLocalisation p.text-grey {
-  color: #c5c5c5;
-}
 .transport {
   padding-top: 20px;
   padding-left: 40px;
@@ -284,6 +282,146 @@ a.nav-link:hover {
   transition: 250ms;
   color: rgb(38, 172, 172);
 }
+
+/* ------------------- REDIRECTION -------------------- */
+.redirection {
+  background-color: #000000;
+}
+.redirection h1 {
+  letter-spacing: 2px;
+  color: #f0f0f0;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.redirection h3 {
+  padding-top: 100px;
+  letter-spacing: 2px;
+  color: rgb(236, 197, 111);
+}
+.imgRedirection {
+  height: 300px;
+  width: 400px;
+  filter: brightness(0.5);
+  border: 1px solid rgb(236, 197, 111);
+  margin-bottom: 100px;
+}
+.image-container {
+  position: relative;
+}
+.image-text {
+  position: absolute;
+  width: 300px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: bold;
+}
+.image-container:hover .imgRedirection {
+  transition: 300ms;
+  filter: brightness(40%);
+  border: 1px solid white;
+}
+.image-container:hover .image-text {
+  transition: 300ms;
+  color: rgb(236, 197, 111);
+  opacity: 1;
+}
+/* -------------------- RESEAUX ------------------ */
+.reseaux {
+  height: 560px;
+}
+.reseaux h3 {
+  letter-spacing: 2px;
+  padding-top: 100px;
+  color: rgb(223, 181, 91);
+}
+.reseaux h1 {
+  letter-spacing: 2px;
+  padding-top: 20px;
+}
+.reseaux h4 {
+  letter-spacing: 1px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.reseauxLogo {
+  width: 150px;
+  font-size: 90px;
+  color: #3d3d3d;
+}
+.reseauxLogo:hover {
+  color: rgb(223, 181, 91);
+  transition: 300ms;
+}
+.anchorReseauxLogo {
+  width: 150px;
+}
+/* -------------------- COORDONNEES ------------------- */
+
+.coordonnees {
+  background-color: #000000;
+  height: 600px;
+}
+.gold {
+  padding-top: 50px;
+  margin: 0 50px;
+  background-color: rgb(223, 177, 80);
+  border-radius: 15px;
+  height: 500px;
+  width: 400px;
+  border: 3px solid rgb(223, 177, 80);
+}
+.gold:hover {
+  transition: 300ms;
+  background-color: #dddddd;
+  color: rgb(216, 157, 30);
+}
+.gold:hover .anchorCoordonnesLogo {
+  color: rgb(216, 157, 30);
+}
+.coordonnees span {
+  margin-top: 20px;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.coordonnees h1 {
+  letter-spacing: 2px;
+  padding-bottom: 50px;
+}
+.coordonneesLogo {
+  padding-top: 30px;
+  font-size: 50px;
+  width: 100px;
+}
+.anchorCoordonnesLogo {
+  width: 100px;
+  color: #000000;
+}
+.gold1 {
+  background-image: url(../../medias/lyon4.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+.gold1:hover {
+  filter: grayscale(0);
+}
+.gold2 {
+  background-image: url(../../medias/erevan2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+.gold2:hover {
+  filter: grayscale(0);
+}
+/* -------------------- END COORDONNEES ------------------- */
 /* ------------------- media queries -------------------- */
 
 @media screen and (max-width: 1700px) {
