@@ -1,0 +1,49 @@
+/* -------------------------- SOMMAIRE ------------------------ */
+.sommaire {
+  border-bottom: 2px solid black;
+}
+.imgSommaire {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  border: 1px solid rgb(255, 218, 139);
+}
+.sommaireH1 {
+  letter-spacing: 2px;
+  border-bottom: 2px solid rgb(255, 218, 139);
+  width: 290px;
+}
+.sommaire a:hover {
+  transition: 300ms;
+  filter: brightness(70%);
+}
+.sommaire a span:hover {
+  transition: 300ms;
+  color: rgb(255, 218, 139);
+}
+/* ------------------- media queries -------------------- */
+
+@media screen and (max-width: 1700px) {
+  .imgSommaire {
+    height: 220px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .imgSommaire {
+    height: 150px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .imgSommaire {
+    height: 220px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .imgSommaire {
+    height: auto;
+    width: 90vw;
+  }
+}
