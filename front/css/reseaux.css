@@ -1,0 +1,30 @@
+/* -------------------- RESEAUX ------------------ */
+.reseaux {
+  height: 560px;
+}
+.reseaux h3 {
+  letter-spacing: 2px;
+  padding-top: 100px;
+  color: rgb(223, 181, 91);
+}
+.reseaux h1 {
+  letter-spacing: 2px;
+  padding-top: 20px;
+}
+.reseaux h4 {
+  letter-spacing: 1px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.reseauxLogo {
+  width: 150px;
+  font-size: 90px;
+  color: #3d3d3d;
+}
+.reseauxLogo:hover {
+  color: rgb(223, 181, 91);
+  transition: 300ms;
+}
+.anchorReseauxLogo {
+  width: 150px;
+}

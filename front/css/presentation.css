@@ -1,0 +1,40 @@
+/* ---------------------- PRESENTATION ----------------------- */
+.presentation {
+  border-top: 2px solid black;
+  background-color: #f0f0f0;
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+.presentation h1 {
+  letter-spacing: 2px;
+  border-bottom: 2px solid rgb(255, 218, 139);
+  width: 210px;
+}
+.presentation h3 {
+  letter-spacing: 2px;
+  color: rgb(236, 197, 111);
+}
+.imgPresentation {
+  width: 42vw;
+  object-fit: cover;
+  padding-left: 40px;
+}
+.black {
+  min-height: 81vh;
+  background-color: black;
+  color: rgb(247, 247, 247);
+}
+.col-img {
+  padding: 0;
+}
+/* ------------------- media queries -------------------- */
+
+@media screen and (max-width: 991px) {
+  .imgPresentation {
+    height: auto;
+    width: 90vw;
+    object-fit: cover;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+}

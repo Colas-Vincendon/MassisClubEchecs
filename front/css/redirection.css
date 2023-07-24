@@ -1,0 +1,46 @@
+/* ------------------- REDIRECTION -------------------- */
+.redirection {
+  background-color: #000000;
+}
+.redirection h1 {
+  letter-spacing: 2px;
+  color: #f0f0f0;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.redirection h3 {
+  padding-top: 100px;
+  letter-spacing: 2px;
+  color: rgb(236, 197, 111);
+}
+.imgRedirection {
+  height: 300px;
+  width: 400px;
+  filter: brightness(0.5);
+  border: 1px solid rgb(236, 197, 111);
+  margin-bottom: 100px;
+}
+.image-container {
+  position: relative;
+}
+.image-text {
+  position: absolute;
+  width: 300px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: bold;
+}
+.image-container:hover .imgRedirection {
+  transition: 300ms;
+  filter: brightness(40%);
+  border: 1px solid white;
+}
+.image-container:hover .image-text {
+  transition: 300ms;
+  color: rgb(236, 197, 111);
+  opacity: 1;
+}

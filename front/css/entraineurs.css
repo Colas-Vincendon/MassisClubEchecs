@@ -1,0 +1,36 @@
+/* ------------------- ENTRAINEURS ------------------- */
+.entraineurs {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../medias/chess-entraineurs.jpg");
+  object-fit: cover;
+  background-position: center top;
+
+  padding-top: 300px;
+  padding-bottom: 200px;
+  margin-top: -15%;
+}
+.entraineurs h1 {
+  letter-spacing: 2px;
+  color: #f0f0f0;
+  padding-bottom: 100px;
+}
+.entraineurs h5 {
+  letter-spacing: 2px;
+  color: rgb(236, 197, 111);
+}
+.entraineurs h4 {
+  letter-spacing: 2px;
+  color: #f0f0f0;
+  padding-top: 10px;
+}
+.imgEntraineurs {
+  width: 300px;
+  height: 300px;
+  padding: 0;
+  object-fit: cover;
+  border: 1px solid rgb(236, 197, 111);
+  filter: grayscale(100);
+}
+.imgEntraineurs:hover {
+  filter: grayscale(0);
+}
