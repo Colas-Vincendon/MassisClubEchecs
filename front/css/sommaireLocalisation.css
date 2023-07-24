@@ -2,12 +2,6 @@
 .sommaire {
   border-bottom: 2px solid black;
 }
-.imgSommaire {
-  height: 300px;
-  width: 400px;
-  object-fit: cover;
-  border: 1px solid rgb(255, 218, 139);
-}
 .sommaireH1 {
   letter-spacing: 2px;
   border-bottom: 2px solid rgb(255, 218, 139);
@@ -17,33 +11,35 @@
   transition: 300ms;
   filter: brightness(70%);
 }
+.sommaire span {
+  transform: translateY(20px);
+  color: white;
+}
 .sommaire a span:hover {
   transition: 300ms;
   color: rgb(255, 218, 139);
 }
+.col-md-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.case1 {
+  background-color: black;
+  height: 80px;
+  width: 33%;
+  border: 1px solid rgb(255, 218, 139);
+}
+.case2 {
+  background-color: rgb(99, 99, 99);
+  height: 80px;
+  width: 33%;
+  border: 1px solid rgb(255, 218, 139);
+}
+.row-border-bottom {
+  border-bottom: 4px solid black;
+}
+
 /* ------------------- media queries -------------------- */
 
 @media screen and (max-width: 1700px) {
-  .imgSommaire {
-    height: 220px;
-    width: 300px;
-  }
-}
-@media screen and (max-width: 1300px) {
-  .imgSommaire {
-    height: 150px;
-    width: 200px;
-  }
-}
-@media screen and (max-width: 991px) {
-  .imgSommaire {
-    height: 220px;
-    width: 300px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .imgSommaire {
-    height: auto;
-    width: 90vw;
-  }
 }

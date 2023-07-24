@@ -1,6 +1,6 @@
 .politic {
   background-color: black;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 .politic h1 {
   background-color: rgb(32, 32, 32);
@@ -30,4 +30,18 @@
 .textPolitic {
   padding-left: 50px;
   padding-right: 50px;
+}
+.btn-gold {
+  width: 300px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  background-color: rgb(255, 218, 139);
+  color: #000000;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.btn-gold:hover {
+  transition: 300ms;
+  background-color: rgb(138, 110, 49);
+  color: #ffffff;
 }
