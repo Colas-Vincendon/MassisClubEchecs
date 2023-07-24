@@ -1,0 +1,34 @@
+.formulaireContact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.336)),
+    url("../../medias/montArarat.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  font-size: 25px;
+  color: #ffffff;
+  border-bottom: 4px solid white;
+}
+
+.formulaireContact h1 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.form-control {
+  width: 400px;
+}
+.btn-gold {
+  width: 180px;
+  letter-spacing: 1px;
+  font-size: 25px;
+  background-color: rgb(255, 218, 139);
+  color: #000000;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.btn-gold:hover {
+  transition: 300ms;
+  background-color: rgb(138, 110, 49);
+  color: #ffffff;
+}

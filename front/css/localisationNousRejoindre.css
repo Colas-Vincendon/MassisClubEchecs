@@ -68,3 +68,16 @@
   height: auto;
   padding-bottom: 70px;
 }
+.btnInscription {
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  width: 300px;
+  background-color: rgb(236, 197, 111);
+  color: rgb(28, 103, 116);
+  border-radius: 30px;
+}
+.logoDownload {
+  font-size: 25px;
+  padding-right: 10px;
+}
