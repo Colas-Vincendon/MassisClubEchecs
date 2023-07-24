@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../front/css/redirection.css" />
     <link rel="stylesheet" href="../front/css/reseaux.css" />
     <link rel="stylesheet" href="../front/css/coordonnees.css" />
+    <link rel="stylesheet" href="../front/css/footerCopyright.css" />
   </head>
 
   <body>
@@ -28,6 +29,7 @@ require_once '../front/components/localisation.html';
 require_once '../front/components/redirection.html';
 require_once '../front/components/reseaux.html';
 require_once '../front/components/coordonnees.html';
+require_once '../front/components/footerCopyright.html';
     ?>
     <script
       src="https://kit.fontawesome.com/9468c33ba3.js"

@@ -101,7 +101,9 @@ a.nav-link:hover {
 .navbar-collapse {
   width: 50vw;
 }
-
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 .dropdown-menu {
   background-color: #00000000;
   border: none;
