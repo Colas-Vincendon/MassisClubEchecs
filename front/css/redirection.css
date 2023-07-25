@@ -19,6 +19,7 @@
   filter: brightness(0.5);
   border: 1px solid rgb(236, 197, 111);
   margin-bottom: 100px;
+  object-fit: cover;
 }
 .image-container {
   position: relative;
@@ -43,4 +44,10 @@
   transition: 300ms;
   color: rgb(236, 197, 111);
   opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .imgRedirection {
+    margin-bottom: 40px;
+  }
 }

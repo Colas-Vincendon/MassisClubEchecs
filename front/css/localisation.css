@@ -59,3 +59,16 @@
   transition: 250ms;
   color: rgb(38, 172, 172);
 }
+
+@media screen and (max-width: 991px) {
+  .imgLocalisation {
+    display: none;
+  }
+  .textLocalisation {
+    margin: 5% 5% 5% 5%;
+  }
+  .accessLocalisation span {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
