@@ -29,6 +29,12 @@
   padding-right: 40px;
   color: #f0f0f0;
 }
+.localisation p.blue {
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: rgb(38, 172, 172);
+  padding-left: 40px;
+}
 .textLocalisation {
   margin: 10% 8% 10% 0;
   background-color: #000000;

@@ -16,12 +16,14 @@
   letter-spacing: 2px;
   padding-top: 10px;
   padding-left: 40px;
+  padding-right: 25px;
   color: #f0f0f0;
 }
 .localisation h2 {
   letter-spacing: 2px;
   padding-top: 10px;
   padding-left: 40px;
+  padding-right: 25px;
   color: #f0f0f0;
 }
 .localisation p {
@@ -80,4 +82,23 @@
 .logoDownload {
   font-size: 25px;
   padding-right: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .imgLocalisation {
+    display: none;
+  }
+  .textLocalisation {
+    margin: 5% 5% 5% 5%;
+  }
+  .col-right {
+    margin: 0% 5% 0% 5%;
+  }
+  .accessLocalisation span {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .pLeft0 {
+    padding-right: 0px;
+  }
 }

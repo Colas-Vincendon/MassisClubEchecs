@@ -6,15 +6,21 @@
   letter-spacing: 2px;
   padding-top: 100px;
   color: rgb(223, 181, 91);
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .reseaux h1 {
   letter-spacing: 2px;
   padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .reseaux h4 {
   letter-spacing: 1px;
   padding-top: 20px;
   padding-bottom: 80px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .reseauxLogo {
   width: 150px;
@@ -27,4 +33,10 @@
 }
 .anchorReseauxLogo {
   width: 150px;
+}
+
+@media screen and (max-width: 400px) {
+  .reseaux {
+    height: 650px;
+  }
 }
