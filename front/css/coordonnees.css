@@ -70,3 +70,11 @@
   filter: grayscale(0);
 }
 /* -------------------- END COORDONNEES ------------------- */
+@media screen and (max-width: 1200px) {
+  .gold1 {
+    display: none;
+  }
+  .gold2 {
+    display: none;
+  }
+}
