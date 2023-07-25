@@ -9,11 +9,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../front/css/politic.css" />
+    <link rel="stylesheet" href="../front/css/footerCopyright.css" />
+
   </head>
 
   <body>
     <?php
 require_once '../front/components/politic.html';
+require_once '../front/components/footerCopyright.html';
     ?>
     <script
       src="https://kit.fontawesome.com/9468c33ba3.js"

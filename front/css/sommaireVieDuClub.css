@@ -1,0 +1,54 @@
+.vieDuClub {
+  border-top: 2px solid rgb(236, 197, 111);
+  border-bottom: 2px solid rgb(236, 197, 111);
+}
+.vieDuClub .col {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.case {
+  height: 300px;
+  color: white;
+  transition: 0.7s ease-in-out;
+}
+.vieDuClub a {
+  text-decoration-line: none;
+}
+.borderGold {
+  border-bottom: 2px solid rgb(236, 197, 111);
+}
+.borderGoldRight {
+  border-right: 2px solid rgb(236, 197, 111);
+}
+.actualites {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../medias/chess-sommaire.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.openDeMassis {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../medias/chess-sommaire2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.resultats {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../medias/chess-sommaire3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.staff {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../medias/chess-sommaire4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.case:hover {
+  color: rgb(236, 197, 111);
+  background-size: 120%;
+}
