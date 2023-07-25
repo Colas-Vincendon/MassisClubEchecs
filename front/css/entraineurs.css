@@ -13,15 +13,21 @@
   letter-spacing: 2px;
   color: #f0f0f0;
   padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .entraineurs h5 {
   letter-spacing: 2px;
   color: rgb(236, 197, 111);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .entraineurs h4 {
   letter-spacing: 2px;
   color: #f0f0f0;
   padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .imgEntraineurs {
   width: 300px;
@@ -33,4 +39,49 @@
 }
 .imgEntraineurs:hover {
   filter: grayscale(0);
+}
+
+@media screen and (max-width: 991px) {
+  .entraineurs {
+    margin-top: -20%;
+    padding-top: 100px;
+  }
+  .entraineurs h5 {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .entraineurs {
+    margin-top: -35%;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .entraineurs {
+    margin-top: -60%;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .entraineurs {
+    margin-top: -90%;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .entraineurs {
+    margin-top: -90%;
+    padding-top: 0px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .entraineurs {
+    margin-top: -110%;
+    padding-top: 0px;
+    padding-bottom: 80px;
+  }
 }

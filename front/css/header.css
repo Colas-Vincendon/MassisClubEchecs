@@ -147,7 +147,7 @@ a.nav-link:hover {
 @media screen and (max-width: 1050px) {
   .titleHeader {
     font-size: 80px;
-    margin-top: 180px;
+    margin-top: 220px;
   }
   .massis {
     font-size: 50px;
@@ -203,17 +203,25 @@ a.nav-link:hover {
     font-size: 40px;
   }
 }
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 767px) {
   .textClubMobile {
     letter-spacing: 4px;
   }
   .navbar-collapse {
     width: 80vw;
   }
+  .titleHeader {
+    font-size: 60px;
+    margin-top: 180px;
+  }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 575px) {
   .textClubMobile {
     letter-spacing: 3px;
+  }
+  .titleHeader {
+    font-size: 60px;
+    margin-top: 100px;
   }
 }

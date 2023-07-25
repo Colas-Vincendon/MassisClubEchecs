@@ -11,6 +11,7 @@
   width: 210px;
 }
 .presentation h3 {
+  padding-top: 40px;
   letter-spacing: 2px;
   color: rgb(236, 197, 111);
 }
@@ -20,21 +21,45 @@
   padding-left: 40px;
 }
 .black {
-  min-height: 81vh;
+  height: 81vh;
   background-color: black;
   color: rgb(247, 247, 247);
 }
 .col-img {
   padding: 0;
 }
+
 /* ------------------- media queries -------------------- */
 
 @media screen and (max-width: 991px) {
   .imgPresentation {
-    height: auto;
-    width: 90vw;
-    object-fit: cover;
-    margin: 0 auto;
-    padding-left: 0;
+    display: none;
+  }
+  .presentation h1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .black {
+    height: 500px;
+  }
+  .flex-fill-md-none {
+    flex: 0 0 auto;
+    width: auto;
+    padding-bottom: 120px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .flex-fill-md-none {
+    padding-bottom: 160px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .flex-fill-md-none {
+    padding-bottom: 210px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .flex-fill-md-none {
+    padding-bottom: 260px;
   }
 }
