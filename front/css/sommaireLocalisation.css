@@ -11,13 +11,15 @@
   transition: 300ms;
   filter: brightness(70%);
 }
-.sommaire span {
-  transform: translateY(20px);
+.sommaire p {
   color: white;
 }
-.sommaire a span:hover {
+.sommaire a p:hover {
   transition: 300ms;
   color: rgb(255, 218, 139);
+}
+.textSommaire {
+  font-size: 2rem;
 }
 .col-md-4 {
   padding-left: 0;
@@ -41,5 +43,8 @@
 
 /* ------------------- media queries -------------------- */
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 991px) {
+  .textSommaire {
+    font-size: 1rem;
+  }
 }

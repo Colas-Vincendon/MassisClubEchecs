@@ -52,3 +52,21 @@
   color: rgb(236, 197, 111);
   background-size: 120%;
 }
+
+@media screen and (max-width: 767px) {
+  .borderGoldRight {
+    border-right: 2px solid rgb(236, 197, 111);
+    border-top: 1px solid rgb(236, 197, 111);
+    border-bottom: 3px solid rgb(236, 197, 111);
+  }
+}
+@media screen and (max-width: 500px) {
+  .case {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 415px) {
+  .case {
+    height: 200px;
+  }
+}
