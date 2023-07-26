@@ -231,3 +231,20 @@ a.nav-link:hover {
     margin-top: 100px;
   }
 }
+@media screen and (max-width: 375px) {
+  .massis {
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 360px) {
+  .titleHeader {
+    font-size: 50px;
+  }
+  .massis {
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

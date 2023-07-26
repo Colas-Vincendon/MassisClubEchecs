@@ -236,3 +236,8 @@ a.nav-link:hover {
     letter-spacing: 3px;
   }
 }
+@media screen and (max-width: 350px) {
+  .massis {
+    font-size: 30px;
+  }
+}
