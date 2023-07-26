@@ -10,10 +10,11 @@
   font-size: 50px;
   letter-spacing: 2px;
   color: rgb(255, 255, 255);
-  border-top: 1px solid rgb(255, 218, 139);
-  border-bottom: 1px solid rgb(255, 218, 139);
+  border: 1px solid rgb(255, 218, 139);
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .mentionsLegales h2 {
   font-size: 40px;
@@ -45,4 +46,16 @@
   transition: 300ms;
   background-color: rgb(138, 110, 49);
   color: #ffffff;
+}
+
+@media screen and (max-width: 400px) {
+  .mentionsLegales h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .btn-gold {
+    width: 250px;
+  }
 }

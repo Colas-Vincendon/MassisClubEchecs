@@ -41,13 +41,16 @@
   filter: grayscale(0);
 }
 
+@media screen and (max-width: 1199px) {
+  .entraineurs h5 {
+    padding-bottom: 50px;
+  }
+}
 @media screen and (max-width: 991px) {
   .entraineurs {
     margin-top: -20%;
     padding-top: 100px;
-  }
-  .entraineurs h5 {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
   }
 }
 @media screen and (max-width: 800px) {

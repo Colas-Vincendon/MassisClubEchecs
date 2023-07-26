@@ -28,7 +28,9 @@
 .col-img {
   padding: 0;
 }
-
+.paddingCol {
+  padding-bottom: 200px;
+}
 /* ------------------- media queries -------------------- */
 
 @media screen and (max-width: 991px) {
@@ -47,6 +49,9 @@
     width: auto;
     padding-bottom: 120px;
   }
+  .paddingCol {
+    padding-bottom: 100px;
+  }
 }
 @media screen and (max-width: 580px) {
   .flex-fill-md-none {
@@ -57,9 +62,15 @@
   .flex-fill-md-none {
     padding-bottom: 210px;
   }
+  .paddingCol {
+    padding-bottom: 140px;
+  }
 }
 @media screen and (max-width: 350px) {
   .flex-fill-md-none {
     padding-bottom: 260px;
+  }
+  .paddingCol {
+    padding-bottom: 250px;
   }
 }
