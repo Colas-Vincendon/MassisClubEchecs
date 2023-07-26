@@ -121,6 +121,9 @@ a.nav-link:hover {
 .pointer {
   cursor: pointer;
 }
+.toHideBigScreen {
+  display: none;
+}
 
 /*----------------------------- END NAVBAR ---------------------------------*/
 
@@ -196,6 +199,9 @@ a.nav-link:hover {
   .titleHeader {
     margin-top: 60px;
   }
+  .toHideBigScreen {
+    display: block;
+  }
 }
 @media screen and (max-width: 870px) {
   .titleHeader {
@@ -211,6 +217,14 @@ a.nav-link:hover {
   }
   .navbar-collapse {
     width: 80vw;
+  }
+}
+@media screen and (max-width: 576px) {
+  .headerAccueil {
+    height: 200px;
+  }
+  .titleHeader {
+    margin-top: 0px;
   }
 }
 

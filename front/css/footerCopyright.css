@@ -13,7 +13,7 @@
   color: rgb(255, 218, 139);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .copyright {
     padding-top: 10px;
     margin-bottom: 10px;
