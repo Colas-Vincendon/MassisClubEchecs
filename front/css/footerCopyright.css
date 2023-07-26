@@ -12,6 +12,9 @@
 .footerCopyright p:hover {
   color: rgb(255, 218, 139);
 }
+.no-underline {
+  text-decoration-line: none;
+}
 
 @media screen and (max-width: 991px) {
   .copyright {
@@ -21,5 +24,18 @@
   .footerCopyright p {
     padding-top: 10px;
     margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .copyright {
+    width: 300px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 350px) {
+  .copyright {
+    font-size: 13px;
   }
 }

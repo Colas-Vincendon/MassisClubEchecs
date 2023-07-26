@@ -1,16 +1,20 @@
 .politic {
   background-color: black;
-  padding-bottom: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .politic h1 {
   background-color: rgb(32, 32, 32);
   font-size: 50px;
   letter-spacing: 2px;
   color: rgb(255, 255, 255);
-  border-top: 1px solid rgb(255, 218, 139);
-  border-bottom: 1px solid rgb(255, 218, 139);
+  border: 1px solid rgb(255, 218, 139);
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .politic h2 {
   font-size: 40px;
@@ -44,4 +48,27 @@
   transition: 300ms;
   background-color: rgb(138, 110, 49);
   color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+  .politic h1 {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .politic h2 {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .politic h3 {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .btn-gold {
+    width: 220px;
+  }
 }

@@ -1,0 +1,59 @@
+.staff {
+  height: auto;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  border-top: 1px solid rgb(255, 218, 139);
+  border-bottom: 1px solid rgb(94, 94, 94);
+}
+.staff h1 {
+  letter-spacing: 2px;
+  font-size: 50px;
+  color: rgb(255, 218, 139);
+  padding-top: 70px;
+  padding-bottom: 150px;
+}
+.staff h2 {
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.staff h3 {
+  letter-spacing: 2px;
+  font-size: 25px;
+  color: rgb(189, 141, 39);
+  padding-bottom: 60px;
+}
+.imgStaff {
+  border-radius: 15px;
+  width: 250px;
+  height: 250px;
+  border: 1px solid rgb(255, 218, 139);
+}
+
+@media screen and (max-width: 1200px) {
+  .imgStaff {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .staff {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .staff h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .imgStaff {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .staff h1 {
+    font-size: 40px;
+  }
+}
