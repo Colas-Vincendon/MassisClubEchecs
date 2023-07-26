@@ -1,9 +1,11 @@
 .open {
   border-top: 1px solid rgb(255, 218, 139);
-  border-bottom: 1px solid rgb(255, 218, 139);
+  border-bottom: 1px solid rgb(94, 94, 94);
   background-color: black;
   height: auto;
   color: white;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .open h1 {
   letter-spacing: 2px;
@@ -53,4 +55,17 @@
   transition: 300ms;
   background-color: rgb(138, 110, 49);
   color: #ffffff;
+}
+
+@media screen and (max-width: 550px) {
+  .btndownload {
+    height: 100px;
+    width: 250px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .btndownload {
+    height: 100px;
+    width: 200px;
+  }
 }

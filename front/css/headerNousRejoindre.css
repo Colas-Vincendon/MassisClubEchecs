@@ -199,6 +199,9 @@ a.nav-link:hover {
   .titleHeader {
     margin-top: 60px;
   }
+  .text-li-services {
+    border: none;
+  }
   .toHideBigScreen {
     display: block;
   }
