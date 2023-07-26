@@ -1,0 +1,84 @@
+.resultats {
+  height: auto;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  border-top: 1px solid rgb(255, 218, 139);
+  border-bottom: 1px solid rgb(94, 94, 94);
+}
+.resultats h1 {
+  letter-spacing: 2px;
+  font-size: 50px;
+  color: rgb(255, 218, 139);
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+.resultats h2 {
+  letter-spacing: 2px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.resultats h3 {
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: rgb(189, 141, 39);
+}
+.resultats p {
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: rgb(68, 68, 68);
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.imgResultats {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 15px 15px 0 0;
+}
+.white {
+  background-color: rgb(250, 250, 250);
+  color: black;
+  border-radius: 0 0 15px 15px;
+}
+.btn-goldResultats {
+  width: 300px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  background-color: rgb(255, 218, 139);
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn-goldResultats:hover {
+  transition: 300ms;
+  background-color: rgb(138, 110, 49);
+  color: #ffffff;
+}
+.resultats p.date {
+  font-size: 15px;
+}
+.b-rad15 {
+  border-radius: 20px;
+  border: 4px solid rgb(138, 110, 49);
+}
+
+@media screen and (max-width: 991px) {
+  .resultats {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .resultats h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
