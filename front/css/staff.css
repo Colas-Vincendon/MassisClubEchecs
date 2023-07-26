@@ -48,14 +48,17 @@
   .staff h1 {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .staff h2 {
+    font-size: 20px;
+  }
+  .staff h3 {
+    font-size: 15px;
   }
   .imgStaff {
     width: 250px;
     height: 250px;
-  }
-}
-@media screen and (max-width: 360px) {
-  .staff h1 {
-    font-size: 40px;
   }
 }

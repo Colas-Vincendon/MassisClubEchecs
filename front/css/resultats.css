@@ -80,5 +80,16 @@
   .resultats h1 {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .resultats h2 {
+    font-size: 25px;
+  }
+  .resultats h3 {
+    font-size: 20px;
+  }
+  .resultats p {
+    font-size: 15px;
   }
 }
