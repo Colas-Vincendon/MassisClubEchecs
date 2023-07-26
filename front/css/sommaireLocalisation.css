@@ -30,12 +30,20 @@
   height: 80px;
   width: 33%;
   border: 1px solid rgb(255, 218, 139);
+  transform: translateX(12px);
 }
 .case2 {
   background-color: rgb(83, 83, 83);
   height: 80px;
   width: 34%;
   border: 1px solid rgb(255, 218, 139);
+}
+.case3 {
+  background-color: black;
+  height: 80px;
+  width: 33%;
+  border: 1px solid rgb(255, 218, 139);
+  transform: translateX(-12px);
 }
 .row-border-bottom {
   border-bottom: 3px solid black;
