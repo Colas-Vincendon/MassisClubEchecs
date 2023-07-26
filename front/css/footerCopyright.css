@@ -1,13 +1,15 @@
 .footerCopyright {
   border-top: 1px solid rgb(94, 94, 94);
   height: auto;
-  width: 100vw;
+  width: 100%;
   background-color: rgb(31, 31, 31);
   color: white;
   font-size: 20px;
 }
 .footerCopyrightRow {
-  padding-right: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
 }
 .footerCopyright p:hover {
   color: rgb(255, 218, 139);

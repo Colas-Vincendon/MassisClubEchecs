@@ -3,6 +3,9 @@
 .coordonnees {
   background-color: #000000;
   height: 400px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .gold {
   padding-top: 20px;

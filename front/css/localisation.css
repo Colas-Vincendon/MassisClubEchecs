@@ -1,6 +1,10 @@
 /* -------------------- LOCALISATION -------------------- */
+.localisation {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 .imgLocalisation {
-  width: 50vw;
+  width: 100%;
   height: 1000px;
   object-fit: cover;
 }
