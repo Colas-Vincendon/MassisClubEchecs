@@ -10,7 +10,7 @@
 }
 .backgroundHeaderAccueil {
   background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.336)),
-    url("../../medias/montArarat.png");
+    url("../../medias/montArarat-min.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
