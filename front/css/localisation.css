@@ -12,18 +12,21 @@
   letter-spacing: 2px;
   padding-top: 70px;
   padding-left: 40px;
+  padding-right: 20px;
   color: rgb(236, 197, 111);
 }
 .localisation h3 {
   letter-spacing: 2px;
   padding-top: 10px;
   padding-left: 40px;
+  padding-right: 20px;
   color: #f0f0f0;
 }
 .localisation h2 {
   letter-spacing: 2px;
   padding-top: 10px;
   padding-left: 40px;
+  padding-right: 20px;
   color: #f0f0f0;
 }
 .localisation p {
@@ -31,6 +34,7 @@
   padding-top: 10px;
   padding-left: 40px;
   padding-right: 40px;
+  padding-right: 20px;
   color: #f0f0f0;
 }
 .localisation p.blue {

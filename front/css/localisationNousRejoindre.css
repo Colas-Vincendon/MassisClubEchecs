@@ -38,6 +38,12 @@
   padding-right: 40px;
   color: #f0f0f0;
 }
+.localisation p.blue {
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: rgb(38, 172, 172);
+  padding-left: 40px;
+}
 .textLocalisation {
   margin: 10% 8% 10% 0;
   background-color: #000000;
@@ -101,5 +107,11 @@
   .accessLocalisation span {
     padding-right: 40px;
     padding-left: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .localisation p.blue {
+    letter-spacing: 1px;
+    font-size: 15px;
   }
 }
