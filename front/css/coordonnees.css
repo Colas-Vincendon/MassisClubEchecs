@@ -73,6 +73,14 @@
   filter: grayscale(0);
 }
 /* -------------------- END COORDONNEES ------------------- */
+@media screen and (max-width: 1199px) {
+  .gold1 {
+    filter: grayscale(0%);
+  }
+  .gold2 {
+    filter: grayscale(0%);
+  }
+}
 @media screen and (max-width: 991px) {
   .gold1 {
     display: none;
