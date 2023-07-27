@@ -80,4 +80,7 @@
   .gold2 {
     display: none;
   }
+  .gold {
+    margin: 0 0;
+  }
 }

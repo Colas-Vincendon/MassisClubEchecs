@@ -1,6 +1,21 @@
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+.row {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.col-lg-6 {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 50%;
+}
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .no-underline {
   text-decoration-line: none;
 }
@@ -166,6 +181,11 @@ a.nav-link:hover {
   }
 }
 @media screen and (max-width: 991px) {
+  .col-lg-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+  }
   .nav-link-active {
     border-bottom: none;
   }

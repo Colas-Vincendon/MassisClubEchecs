@@ -4,6 +4,7 @@
   padding-right: 0px;
 }
 .presentation {
+  width: 100%;
   border-top: 2px solid black;
   background-color: #f0f0f0;
   padding-top: 80px;
