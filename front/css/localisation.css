@@ -82,3 +82,9 @@
     padding-left: 40px;
   }
 }
+@media screen and (max-width: 400px) {
+  .localisation p.blue {
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+}

@@ -39,4 +39,9 @@
   .reseaux {
     height: 650px;
   }
+  .reseauxLogo {
+    width: 100px;
+    font-size: 90px;
+    color: #3d3d3d;
+  }
 }

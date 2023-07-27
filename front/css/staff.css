@@ -23,7 +23,7 @@
 .staff h3 {
   letter-spacing: 2px;
   font-size: 25px;
-  color: rgb(189, 141, 39);
+  color: rgb(224, 175, 68);
   padding-bottom: 60px;
 }
 .imgStaff {
@@ -60,5 +60,11 @@
   .imgStaff {
     width: 250px;
     height: 250px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .imgStaff {
+    width: 200px;
+    height: 200px;
   }
 }
