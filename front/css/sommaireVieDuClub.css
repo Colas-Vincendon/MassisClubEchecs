@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 767px) {
   .borderGoldRight {
-    border-right: 2px solid rgb(236, 197, 111);
+    border-right: none;
     border-top: 1px solid rgb(236, 197, 111);
     border-bottom: 3px solid rgb(236, 197, 111);
   }
