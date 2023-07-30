@@ -1,0 +1,13 @@
+{
+    "name": "colas/mce",
+    "description": "Massis Club Echecs",
+    "require": {
+        "php": "8.2.7"
+    },
+    "authors": [
+        {
+            "name": "Colas",
+            "email": "colasvincendon@gmail.com"
+        }
+    ]
+}
