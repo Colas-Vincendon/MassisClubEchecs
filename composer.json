@@ -2,7 +2,7 @@
     "name": "colas/mce",
     "description": "Massis Club Echecs",
     "require": {
-        "php": "8.2.8"
+        "php": "8.1.21"
     },
     "authors": [
         {
