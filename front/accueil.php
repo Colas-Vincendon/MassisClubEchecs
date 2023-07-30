@@ -17,15 +17,15 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../front/css/header.css" />
-    <link rel="stylesheet" href="../front/css/sommaire.css" />
-    <link rel="stylesheet" href="../front/css/presentation.css" />
-    <link rel="stylesheet" href="../front/css/entraineurs.css" />
-    <link rel="stylesheet" href="../front/css/localisation.css" />
-    <link rel="stylesheet" href="../front/css/redirection.css" />
-    <link rel="stylesheet" href="../front/css/reseaux.css" />
-    <link rel="stylesheet" href="../front/css/coordonnees.css" />
-    <link rel="stylesheet" href="../front/css/footerCopyright.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/sommaire.css" />
+    <link rel="stylesheet" href="css/presentation.css" />
+    <link rel="stylesheet" href="css/entraineurs.css" />
+    <link rel="stylesheet" href="css/localisation.css" />
+    <link rel="stylesheet" href="css/redirection.css" />
+    <link rel="stylesheet" href="css/reseaux.css" />
+    <link rel="stylesheet" href="css/coordonnees.css" />
+    <link rel="stylesheet" href="css/footerCopyright.css" />
   </head>
 
   <body>

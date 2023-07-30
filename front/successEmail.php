@@ -14,9 +14,9 @@
 <meta property="og:site_name" content="Massis Club Echecs">
 <meta property="og:locale" content="fr_FR">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../front/css/headerMail.css" />
-    <link rel="stylesheet" href="../front/css/coordonnees.css" />
-    <link rel="stylesheet" href="../front/css/footerCopyright.css" />
+    <link rel="stylesheet" href="css/headerMail.css" />
+    <link rel="stylesheet" href="css/coordonnees.css" />
+    <link rel="stylesheet" href="css/footerCopyright.css" />
 </head>
 <body>
     <?php
