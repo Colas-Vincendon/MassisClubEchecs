@@ -36,9 +36,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             // Envoyer l'e-mail
             if (mail($destinataire, $sujet, $contenu, $headers)) {
-                header('location: https://massis-club-echecs.com/front/successEmail');
+                header('Location: ../front/successEmail.php');
             } else {
-                header('location: https://massis-club-echecs.com/front/failEmail');
+                header('Location: ../front/failEmail.php');
             }
         }
     }
