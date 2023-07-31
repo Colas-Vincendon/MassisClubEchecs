@@ -8,7 +8,7 @@
 <link rel="shortcut icon" href="../medias/logoClubCarre.jpg">
     <meta property="og:title" content="Massis Club Echecs">
     <meta property="og:description" content="Le Massis Club d'Échecs est situé dans le 3ème arrondissement de Lyon. Que vous soyez débutant dans le monde des échecs ou un maître du jeu à la recherche de nouveaux défis, le club offre une plateforme pour tous. Le Massis Club d'Échecs est plus qu'un lieu de jeu : c'est une communauté où amateurs et professionnels se rencontrent, partagent et cultivent leur passion pour ce jeu intemporel. Venez nous rejoindre et laissez-vous immerger dans l'art fascinant des échecs.">
-<meta property="og:url" content="https://massis-club-echecs.com/front/failEmail">
+<meta property="og:url" content="https://massis-club-echecs.com/front/failEmail.php">
 <meta property="og:image" content="https://club-echecs-61966ca93fc8.herokuapp.com/medias/logoClub.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Massis Club Echecs">
