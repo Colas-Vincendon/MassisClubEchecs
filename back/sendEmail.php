@@ -36,9 +36,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             // Envoyer l'e-mail
             if (mail($destinataire, $sujet, $contenu, $headers)) {
-                header('location: ../successEmail.php');
+                header('location: ../../successEmail.php');
             } else {
-                header('location: ../failEmail.php');
+                header('location: ../../failEmail.php');
             }
         }
     }
