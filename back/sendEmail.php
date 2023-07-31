@@ -5,11 +5,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Vérifier si les champs obligatoires sont remplis
     if (empty($_POST['nom']) || empty($_POST['email']) || empty($_POST['sujet']) || empty($_POST['message'])) {
-        echo 'Erreur : tous les champs ne sont pas remplis.';
+        $erreur = "Veuillez remplir tous les champs obligatoires.";
     } else {
         // Validation de l'adresse e-mail
         if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-            echo 'Erreur : adresse e-mail non valide.';
+            $erreur = "L'adresse e-mail n'est pas valide.";
         } else {
             // Les données du formulaire sont valides, envoyer l'e-mail
 
@@ -36,15 +36,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             // Envoyer l'e-mail
             if (mail($destinataire, $sujet, $contenu, $headers)) {
-                echo 'E-mail envoyé, redirection en cours...';
                 header('Location: ../front/successEmail.php');
             } else {
-                echo 'Erreur lors de l\'envoi de l\'e-mail, redirection en cours...';
                 header('Location: ../front/failEmail.php');
             }
         }
     }
-} else {
-    echo 'Aucun formulaire n\'a été soumis.';
 }
 ?>
