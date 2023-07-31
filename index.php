@@ -1,2 +1,2 @@
 <?php
-header('location: ./front/accueil.php');
+header('location: ./accueil.php');

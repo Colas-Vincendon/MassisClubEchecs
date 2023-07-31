@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $contenu .= "Message: " . htmlspecialchars($message, ENT_QUOTES, 'UTF-8') . "\n";
 
             // Adresse e-mail de destination
-            $destinataire = 'massisechecs@gmail.com';
+            $destinataire = 'colasvincendon@gmail.com';
 
             // En-têtes de l'e-mail
             // $headers = 'Content-Type: text/plain; charset=utf-8' . "\r\n";
@@ -36,9 +36,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             // Envoyer l'e-mail
             if (mail($destinataire, $sujet, $contenu, $headers)) {
-                header('location: ../front/successEmail.php');
+                header('location: ../successEmail.php');
             } else {
-                header('location: ../front/failEmail.php');
+                header('location: ../failEmail.php');
             }
         }
     }
