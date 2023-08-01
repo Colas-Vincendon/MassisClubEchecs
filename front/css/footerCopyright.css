@@ -17,6 +17,15 @@
 .no-underline {
   text-decoration-line: none;
 }
+.imgLogo {
+  margin: 0 50px;
+  height: 350px;
+  width: 200px;
+  object-fit: cover;
+}
+.firstRow {
+  border-bottom: 1px solid rgb(94, 94, 94);
+}
 
 @media screen and (max-width: 991px) {
   .copyright {
