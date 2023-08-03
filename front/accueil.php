@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/sommaire.css" />
     <link rel="stylesheet" href="css/presentation.css" />
-    <link rel="stylesheet" href="css/entraineurs.css" />
+    <!-- <link rel="stylesheet" href="css/entraineurs.css" /> -->
     <link rel="stylesheet" href="css/localisation.css" />
     <link rel="stylesheet" href="css/redirection.css" />
     <link rel="stylesheet" href="css/reseaux.css" />
@@ -33,7 +33,7 @@
 require_once '../front/components/header.html';
 require_once '../front/components/sommaire.html';
 require_once '../front/components/presentation.html';
-require_once '../front/components/entraineurs.html';
+// require_once '../front/components/entraineurs.html';
 require_once '../front/components/localisation.html';
 require_once '../front/components/redirection.html';
 require_once '../front/components/reseaux.html';
