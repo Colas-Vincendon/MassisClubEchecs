@@ -56,3 +56,8 @@
     padding-bottom: 0px;
   }
 }
+@media screen and (max-width: 500px) {
+  #pBottom {
+    padding-bottom: 150px;
+  }
+}
