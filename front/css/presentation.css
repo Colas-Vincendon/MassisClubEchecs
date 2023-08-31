@@ -60,4 +60,12 @@
   #pBottom {
     padding-bottom: 150px;
   }
+  .black {
+    margin-top: -140px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .black {
+    margin-top: -160px;
+  }
 }
