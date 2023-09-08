@@ -81,7 +81,7 @@
   padding-bottom: 70px;
 }
 .btnInscription {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   height: 50px;
   width: 300px;
@@ -96,8 +96,8 @@
   border-radius: 30px;
 }
 .logoDownload {
-  font-size: 25px;
-  padding-right: 10px;
+  font-size: 22px;
+  padding-right: 8px;
 }
 
 @media screen and (max-width: 1600px) {
